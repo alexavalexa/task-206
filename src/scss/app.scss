@@ -18,3 +18,24 @@ html {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: $background;
 }
+
+
+section[class~="hero"] {
+  height: 350px;
+}
+
+a[class="title"] {
+  padding: 50px, 0px, 10px;
+}
+
+a[class="button"] {
+  padding: 20px, 40px;
+}
+
+button[class="button"] {
+  margin-left: 5px;
+}
+
+a[class="button-container"] {
+  margin-top: 30px;
+}
